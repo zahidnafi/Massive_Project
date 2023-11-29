@@ -4,8 +4,8 @@ import Artikel1 from "../../assets/gambar/artikel 2.webp"
 import Artikel2 from "../../assets/gambar/artikel 3.jpg"
 import Artikel3 from "../../assets/gambar/artikel 5.jpeg"
 import Artikel4 from "../../assets/gambar/artikel 7.webp"
-import Artikel5 from "../../assets/gambar/artikel 2.webp"
-import Artikel6 from "../../assets/gambar/artikel 2.webp"
+import Artikel5 from "../../assets/gambar/artikel 7.jpeg"
+import Artikel6 from "../../assets/gambar/artikel 3.jpeg"
 
 const MoreArticle = () => {
   return (
@@ -79,7 +79,7 @@ const MoreArticle = () => {
           {/* Artikel 5 */}
           <Col md={4} className="mb-4">
             <Card>
-              <Card.Img src="/asset/Gambar/download (1).jfif" alt="Gambar Artikel 5" className="card-img-top" />
+              <Card.Img src={Artikel5} alt="Gambar Artikel 5" className="card-img-top" />
               <Card.Body>
                 <Card.Title>Asam Lambung, Penyakit ‘Umum’ di Kalangan Kantoran</Card.Title>
                 <Card.Text>
@@ -93,7 +93,7 @@ const MoreArticle = () => {
           {/* Artikel 6 */}
           <Col md={4} className="mb-4">
             <Card>
-              <Card.Img src="/asset/Gambar/gorengan.jfif" alt="Gambar Artikel 6" className="card-img-top" />
+              <Card.Img src={Artikel6} alt="Gambar Artikel 6" className="card-img-top" />
               <Card.Body>
                 <Card.Title>Penyakit Asam Lambung (GERD) - Penyebab, Risiko, dan Gejala</Card.Title>
                 <Card.Text>

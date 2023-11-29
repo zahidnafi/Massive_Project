@@ -14,24 +14,20 @@ const ContentAbout = () => {
       {/* Tentang Kami */}
       <Container className="mt-5 mb-5">
         <Row>
-          <Col md={12} style={{ textAlign: 'center' }}>
-            <h2>Tentang Kami</h2>
-            <p>
-              Kami adalah platform yang berkomitmen untuk mengatasi isu pelecehan seksual dan catcalling. Melalui situs
-              ini, kami menyediakan ruang aman untuk berbagi pengalaman, sumber daya edukatif, dan dukungan komunitas.
-              Tujuan kami adalah menciptakan kesadaran tentang dampak negatif pelecehan seksual dan mengedukasi
-              masyarakat agar dapat bersama-sama mengatasi masalah ini. Dengan fokus pada pencegahan, kami berupaya
-              menciptakan lingkungan yang lebih aman dan mendukung bagi semua individu.
+          <Col md={12} >
+            <h2 className='mb-5' style={{ textAlign: 'center' }}>Tentang Kami</h2>
+            <p style={{ textAlign: 'justify' }}>
+              Kami adalah platform yang berkomitmen untuk mengatasi isu pelecehan seksual dan catcalling. Situs kami
+              hadir sebagai wadah yang aman bagi individu untuk berbagi pengalaman, mendapatkan sumber daya edukatif,
+              dan merasakan dukungan dari komunitas. Melalui upaya kami, tujuan utama adalah menciptakan kesadaran luas
+              tentang dampak negatif pelecehan seksual serta memberikan edukasi kepada masyarakat.
+              Kami percaya bahwa dengan bersama-sama mengatasi masalah ini, kita dapat menciptakan lingkungan yang lebih
+              aman dan mendukung bagi semua individu.
             </p>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates adipisci eius dolorem
-              quas, aliquid commodi porro nulla error minus doloribus velit qui id deserunt omnis optio consequuntur
-              cumque nesciunt sed modi illum culpa temporibus veniam. Eius, praesentium obcaecati maiores sed at a
-              incidunt magnam perspiciatis molestias aliquid, earum debitis consequatur, quibusdam nostrum. Cupiditate
-              maxime nesciunt quibusdam distinctio. Quia ipsum illum omnis voluptatum quibusdam esse, debitis dolorum
-              fugiat veritatis, distinctio obcaecati, dicta voluptatibus? Ipsum nesciunt dolorem non reiciendis, illum
-              nemo id enim saepe ad beatae doloremque explicabo, libero illo fugit. Delectus, labore saepe odio eligendi
-              magnam doloremque expedita cupiditate eum.
+            <p style={{ textAlign: 'Justify' }}>
+              Fokus kami terutama pada pencegahan, dengan keyakinan bahwa langkah-langkah proaktif dapat membantu mencegah
+              terjadinya pelecehan seksual. Dengan mengedukasi masyarakat tentang pentingnya penghargaan dan kesetaraan, 
+              kami berharap dapat membentuk norma yang lebih baik dalam hubungan antarindividu.
             </p>
           </Col>
         </Row>
