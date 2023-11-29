@@ -27,11 +27,11 @@ const RegisterPage = () => {
               <Form.Label htmlFor="confirm-password">Konfirmasi Password</Form.Label>
               <Form.Control type="password" id="confirm-password" placeholder="Konfirmasi password" />
             </div>
-            <Link to="/Login"><Button className="mt-3" href="login.html" variant="primary" type="button">
+            <Link to="/"><Button className="mt-3" href="login.html" variant="primary" type="button">
               Daftar
             </Button></Link>
           </Form>
-          <Link  className="text-decoration-none" to="/Login"><p className="mt-3">
+          <Link  className="text-decoration-none" to="/"><p className="mt-3">
             Sudah punya akun? <a href="login.html">Login disini</a>
           </p></Link>
             </Card.Body>

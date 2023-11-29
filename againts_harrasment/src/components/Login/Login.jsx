@@ -29,7 +29,7 @@ const LoginPage = () => {
                   <Form.Label>Password</Form.Label>
                   <Form.Control type="password" placeholder="Masukkan password" required />
                 </Form.Group>
-                <Link to="/"><Button type="submit" variant="primary" className="mt-3">
+                <Link to="/Home"><Button type="submit" variant="primary" className="mt-3">
                   Login
                 </Button></Link>
               </Form>

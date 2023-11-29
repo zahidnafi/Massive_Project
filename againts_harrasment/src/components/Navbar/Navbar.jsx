@@ -15,7 +15,7 @@ const CustomNavbar = () => {
         <Navbar.Toggle aria-controls="navbarNav" />
         <Navbar.Collapse id="navbarNav">
           <Nav className="ms-auto" style={{ marginRight: '17vh' }}>
-            <Link className="text-decoration-none" to="/"><strong style={{marginRight:'20px', color: 'black', textDecoration:'none' }}>Home</strong></Link>
+            <Link className="text-decoration-none" to="/Home"><strong style={{marginRight:'20px', color: 'black', textDecoration:'none' }}>Home</strong></Link>
             <Link className="text-decoration-none" to="/About"><strong style={{marginRight:'20px', color: 'black',  }}>About</strong></Link>
             <Link className="text-decoration-none" to="/Features"><strong style={{marginRight:'20px', color: 'black',  }}>Features</strong></Link>
             <Link className="text-decoration-none" to="/Articles"><strong style={{marginRight:'20px', color: 'black',  }}>Article</strong></Link>

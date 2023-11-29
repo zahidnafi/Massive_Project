@@ -33,7 +33,7 @@ const FeaturesContent = () => {
               <div style={{ marginTop: '20px' }}>
                 <h5><strong>Video Tutorial Self Defense</strong></h5>
                 <p style={{ textAlign: 'center' }}>Teknik pertahanan yang ditampilkan dalam bentuk video untuk tindakan preventif apabila pelaku melakukan kontak fisik.</p>
-                <Button href="#" variant="secondary" className="mt-3">Cek disini</Button>
+              <Link to="/Video"><Button variant="secondary" className="mt-3">Cek disini</Button></Link>  
               </div>
             </div>
           </Col>
