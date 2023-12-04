@@ -21,7 +21,7 @@ const MainArticle = () => {
                     <Card.Text>
                       “Ada beberapa hal yang dapat dilakukan guna menyikap catcalling. Salah satunya adalah dengan memutuskan terlebih dahulu apakah kamu perlu menghindar atau melawan.”
                     </Card.Text>
-                    <Button href="article.html" variant="secondary">Baca Selengkapnya</Button>
+                    <Button variant="secondary" style={{backgroundColor: '#632B50'}}>Baca Selengkapnya</Button>
                   </Card.Body>
                 </Col>
               </Row>

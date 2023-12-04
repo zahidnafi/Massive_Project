@@ -1,15 +1,15 @@
-import ContentHome from "../components/Content/Content";
 import Footer from "../components/Footer/footer";
 import CustomNavbar from "../components/Navbar/Navbar";
+import Tools from "../components/Tools/Tools";
 
-function Home(){
+function ToolsPages(){
     return(
         <div>
             <CustomNavbar/>
-            <ContentHome/>
+            <Tools/>
             <Footer/>
         </div>
     )
 }
 
-export default Home;
+export default ToolsPages;

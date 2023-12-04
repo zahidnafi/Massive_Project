@@ -30,7 +30,7 @@ const MoreArticle = () => {
                 <Card.Text>
                   Ada begitu banyak jenis dan bentuk kekerasan terhadap perempuan dan anak. Salah satunya, kekerasan seksual atau pelecehan seksual. Kasus ini telah terjadi begitu marak di Indonesia sejak bertahun-tahun lalu...
                 </Card.Text>
-                <Button href="#" variant="secondary" style={{backgroundColor: '#FAD9EC',  color: 'black'}}>Baca Selengkapnya</Button>
+                <Link to="/Artikel1"><Button variant="secondary" style={{backgroundColor: '#632B50'}}>Baca Selengkapnya</Button></Link>
               </Card.Body>
             </Card>
           </Col>
@@ -44,7 +44,7 @@ const MoreArticle = () => {
                 <Card.Text>
                   Pelecehan seksual bukan hanya menimbulkan rasa tidak nyaman, tapi juga membuat korban rentan mengalami berbagai gangguan psikis, meliputi gangguan cemas, depresi, PTSD (Post Traumatic Stress Disorder), dan histeria...
                 </Card.Text>
-                <Button href="#" variant="secondary" style={{backgroundColor: '#FAD9EC',  color: 'black'}}>Baca Selengkapnya</Button>
+                <Button  variant="secondary" style={{backgroundColor: '#632B50'}}>Baca Selengkapnya</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -58,7 +58,7 @@ const MoreArticle = () => {
                 <Card.Text>
                   Kasus kekerasan dan pelecehan seksual yang dialami seseorang seperti fenomena gunung es. Kejadiannya banyak yang belum terungkap lantaran korban enggan atau tidak tahu bagaimana cara melaporkan kasus kekerasan dan pelecehan seksual yang dialaminya...
                 </Card.Text>
-                <Button href="#" variant="secondary" style={{backgroundColor: '#FAD9EC',  color: 'black'}}>Baca Selengkapnya</Button>
+                <Button variant="secondary" style={{backgroundColor: '#632B50'}}>Baca Selengkapnya</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -72,7 +72,7 @@ const MoreArticle = () => {
                 <Card.Text>
                   Data Sistem Informasi Online (SIMFONI) Kemen PPPA yang diakses Rabu (31/3/2021) menunjukkan, kasus kekerasan yang menimpa para korban terjadi di berbagai tempat...
                 </Card.Text>
-                <Button href="#" variant="secondary" style={{backgroundColor: '#FAD9EC',  color: 'black'}}>Baca Selengkapnya</Button>
+                <Button variant="secondary" style={{backgroundColor: '#632B50'}}>Baca Selengkapnya</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -82,13 +82,13 @@ const MoreArticle = () => {
             <Card>
               <Card.Img src={Artikel5} alt="Gambar Artikel 5" className="card-img-top" />
               <Card.Body>
-                <Card.Title>Cara melaporkan kasus kekerasan seksual terhad perempuan dan anak</Card.Title>
+                <Card.Title>Cara melaporkan kasus kekerasan seksual terhadap perempuan dan anak</Card.Title>
                 <Card.Text>
                 Kekerasan terhadap perempuan dan anak merupakan persoalan yang perlu diselesaikan.
                     Kerap kali, korban kekerasan tidak menyuarakan apa yang mereka alami, baik itu kekerasan secara
                     fisik, mental, maupun seksual.....
                 </Card.Text>
-                <Link to="/Artikel5"><Button variant="secondary" style={{backgroundColor: '#FAD9EC',  color: 'black'}}>Baca Selengkapnya</Button></Link>
+                <Link to="/Artikel5"><Button variant="secondary" style={{backgroundColor: '#632B50'}}>Baca Selengkapnya</Button></Link>
               </Card.Body>
             </Card>
           </Col>
@@ -102,7 +102,7 @@ const MoreArticle = () => {
                 <Card.Text>
                   Dalam Pasal 1 angka 1 Undang – Undang Nomor 12 Tahun 2022 tentang Tindak Pidana Kekerasan Seksual, dijelaskan bahwa tindak pidana kekerasan seksual mencakup berbagai perbuatan yang termasuk dalam undang-undang ini...
                 </Card.Text>
-                <Link to="/Artikel6"><Button  variant="secondary" style={{backgroundColor: '#FAD9EC',  color: 'black'}}>Baca Selengkapnya</Button></Link>
+                <Link to="/Artikel6"><Button  variant="secondary" style={{backgroundColor: '#632B50'}}>Baca Selengkapnya</Button></Link>
               </Card.Body>
             </Card>
           </Col>

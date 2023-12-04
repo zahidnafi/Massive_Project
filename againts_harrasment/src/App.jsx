@@ -9,6 +9,8 @@ import Video from './pages/Video';
 import Articles5 from './pages/Artikel/Articles5';
 import Articles6 from './pages/Artikel/Articles6';
 import ChangePass from './pages/Change_Pass';
+import Articles1 from './pages/Artikel/Articles1';
+import ToolsPages from './pages/ToolsPages';
 
 
 function App() {
@@ -23,7 +25,9 @@ function App() {
         <Route path='/Features' element={<Features/>}/>
         <Route path='/Articles' element={<Articles/>}/>
         <Route path='/Video' element={<Video/>}/>
+        <Route path='/Tools' element={<ToolsPages/>}/>
         <Route path='/ChangePass' element={<ChangePass/>}/>
+        <Route path='/Artikel1' element={<Articles1/>}/>
         <Route path='/Artikel5' element={<Articles5/>}/>
         <Route path='/Artikel6' element={<Articles6/>}/>
 

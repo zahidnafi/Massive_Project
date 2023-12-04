@@ -29,11 +29,11 @@ const LoginPage = () => {
                   <Form.Label>Password</Form.Label>
                   <Form.Control type="password" placeholder="Masukkan password" required />
                 </Form.Group>
-                <Link to="/Home"><Button type="submit" variant="primary" className="mt-3">
+                <Link to="/Home"><Button type="submit" variant="secondary" className="mt-3" style={{backgroundColor: '#632B50'}}>
                   Login
                 </Button></Link>
               </Form>
-              <Link className="text-decoration-none" to="/Register"><p className="mt-3">
+              <Link className="text-decoration-none" style={{color: '#632B50'}} to="/Register"><p className="mt-3">
                 Belum punya akun? <a href="landing_page.html">Daftar disini</a>
               </p></Link>
             </Card.Body>
