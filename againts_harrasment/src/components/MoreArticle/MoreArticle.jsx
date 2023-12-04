@@ -6,6 +6,7 @@ import Artikel3 from "../../assets/gambar/artikel 5.jpeg"
 import Artikel4 from "../../assets/gambar/artikel 7.webp"
 import Artikel5 from "../../assets/gambar/artikel 7.jpeg"
 import Artikel6 from "../../assets/gambar/artikel 3.jpeg"
+import { Link } from 'react-router-dom';
 
 const MoreArticle = () => {
   return (
@@ -29,7 +30,7 @@ const MoreArticle = () => {
                 <Card.Text>
                   Ada begitu banyak jenis dan bentuk kekerasan terhadap perempuan dan anak. Salah satunya, kekerasan seksual atau pelecehan seksual. Kasus ini telah terjadi begitu marak di Indonesia sejak bertahun-tahun lalu...
                 </Card.Text>
-                <Button href="#" variant="primary">Baca Selengkapnya</Button>
+                <Button href="#" variant="secondary" style={{backgroundColor: '#FAD9EC',  color: 'black'}}>Baca Selengkapnya</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -43,7 +44,7 @@ const MoreArticle = () => {
                 <Card.Text>
                   Pelecehan seksual bukan hanya menimbulkan rasa tidak nyaman, tapi juga membuat korban rentan mengalami berbagai gangguan psikis, meliputi gangguan cemas, depresi, PTSD (Post Traumatic Stress Disorder), dan histeria...
                 </Card.Text>
-                <Button href="#" variant="primary">Baca Selengkapnya</Button>
+                <Button href="#" variant="secondary" style={{backgroundColor: '#FAD9EC',  color: 'black'}}>Baca Selengkapnya</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -57,13 +58,13 @@ const MoreArticle = () => {
                 <Card.Text>
                   Kasus kekerasan dan pelecehan seksual yang dialami seseorang seperti fenomena gunung es. Kejadiannya banyak yang belum terungkap lantaran korban enggan atau tidak tahu bagaimana cara melaporkan kasus kekerasan dan pelecehan seksual yang dialaminya...
                 </Card.Text>
-                <Button href="#" variant="primary">Baca Selengkapnya</Button>
+                <Button href="#" variant="secondary" style={{backgroundColor: '#FAD9EC',  color: 'black'}}>Baca Selengkapnya</Button>
               </Card.Body>
             </Card>
           </Col>
 
           {/* Artikel 4 */}
-          <Col md={4} className="mb-4">
+          <Col md={4} className="mb-5">
             <Card>
               <Card.Img src={Artikel4} alt="Gambar Artikel 4" className="card-img-top" />
               <Card.Body>
@@ -71,35 +72,37 @@ const MoreArticle = () => {
                 <Card.Text>
                   Data Sistem Informasi Online (SIMFONI) Kemen PPPA yang diakses Rabu (31/3/2021) menunjukkan, kasus kekerasan yang menimpa para korban terjadi di berbagai tempat...
                 </Card.Text>
-                <Button href="#" variant="primary">Baca Selengkapnya</Button>
+                <Button href="#" variant="secondary" style={{backgroundColor: '#FAD9EC',  color: 'black'}}>Baca Selengkapnya</Button>
               </Card.Body>
             </Card>
           </Col>
 
           {/* Artikel 5 */}
-          <Col md={4} className="mb-4">
+          <Col md={4} className="mb-5">
             <Card>
               <Card.Img src={Artikel5} alt="Gambar Artikel 5" className="card-img-top" />
               <Card.Body>
-                <Card.Title>Asam Lambung, Penyakit ‘Umum’ di Kalangan Kantoran</Card.Title>
+                <Card.Title>Cara melaporkan kasus kekerasan seksual terhad perempuan dan anak</Card.Title>
                 <Card.Text>
-                  Jika kamu disajikan sebuah pertanyaan tentang salah satu penyakit paling sering dialami oleh kaum pekerja dan....
+                Kekerasan terhadap perempuan dan anak merupakan persoalan yang perlu diselesaikan.
+                    Kerap kali, korban kekerasan tidak menyuarakan apa yang mereka alami, baik itu kekerasan secara
+                    fisik, mental, maupun seksual.....
                 </Card.Text>
-                <Button href="#" variant="primary">Baca Selengkapnya</Button>
+                <Link to="/Artikel5"><Button variant="secondary" style={{backgroundColor: '#FAD9EC',  color: 'black'}}>Baca Selengkapnya</Button></Link>
               </Card.Body>
             </Card>
           </Col>
 
           {/* Artikel 6 */}
-          <Col md={4} className="mb-4">
+          <Col md={4} className="mb-5">
             <Card>
               <Card.Img src={Artikel6} alt="Gambar Artikel 6" className="card-img-top" />
               <Card.Body>
-                <Card.Title>Penyakit Asam Lambung (GERD) - Penyebab, Risiko, dan Gejala</Card.Title>
+                <Card.Title>Jenis- Jenis Tindak Pidana Kekerasan Seksual</Card.Title>
                 <Card.Text>
-                  Gastroesophageal reflux disease atau GERD adalah istilah yang digunakan...
+                  Dalam Pasal 1 angka 1 Undang – Undang Nomor 12 Tahun 2022 tentang Tindak Pidana Kekerasan Seksual, dijelaskan bahwa tindak pidana kekerasan seksual mencakup berbagai perbuatan yang termasuk dalam undang-undang ini...
                 </Card.Text>
-                <Button href="#" variant="primary">Baca Selengkapnya</Button>
+                <Link to="/Artikel6"><Button  variant="secondary" style={{backgroundColor: '#FAD9EC',  color: 'black'}}>Baca Selengkapnya</Button></Link>
               </Card.Body>
             </Card>
           </Col>

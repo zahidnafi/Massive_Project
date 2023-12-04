@@ -6,6 +6,10 @@ import Register from './pages/Register';
 import Features from './pages/Features';
 import Articles from './pages/Articles';
 import Video from './pages/Video';
+import Articles5 from './pages/Artikel/Articles5';
+import Articles6 from './pages/Artikel/Articles6';
+import ChangePass from './pages/Change_Pass';
+
 
 function App() {
 
@@ -19,6 +23,10 @@ function App() {
         <Route path='/Features' element={<Features/>}/>
         <Route path='/Articles' element={<Articles/>}/>
         <Route path='/Video' element={<Video/>}/>
+        <Route path='/ChangePass' element={<ChangePass/>}/>
+        <Route path='/Artikel5' element={<Articles5/>}/>
+        <Route path='/Artikel6' element={<Articles6/>}/>
+
       </Routes>
       
     </>

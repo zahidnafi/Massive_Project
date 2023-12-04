@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 const FeaturesContent = () => {
   return (
     <section className="Features">
-      <Container className="mt-5 mb-5">
-        <Row>
+      <Container className="mt-5 mb-5" >
+        <Row style={{marginBottom: '33vh'}}>
           <Col md={12} style={{ textAlign: 'center' }}>
             <h1>Features</h1>
           </Col>
