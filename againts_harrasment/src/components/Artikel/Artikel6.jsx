@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 
 const Artikel6 = () => {
     return (
-        <Container className="mt-5">
+        <Container className="mt-5 mb-5">
             <Row>
                 <Col md={12}>
                     <h2>Jenis- Jenis Tindak Pidana Kekerasan Seksual</h2>

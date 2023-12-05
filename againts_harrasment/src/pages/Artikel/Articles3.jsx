@@ -1,18 +1,18 @@
-import ArtikelUtama from "../../components/Artikel/ArtikelUtama";
+import Artikel3 from "../../components/Artikel/Artikel3";
 import Footer from "../../components/Footer/footer";
 import CustomNavbar from "../../components/Navbar/Navbar";
 
 
 
-function MainArticles(){
+function Articles3(){
     return(
         <div>
             <CustomNavbar/>
-            <ArtikelUtama/>
+            <Artikel3/>
             <Footer/>
            
         </div>
     )
 }
 
-export default MainArticles;
+export default Articles3;

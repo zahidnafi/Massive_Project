@@ -8,7 +8,7 @@ const Artikel1 = () => {
             <Row>
                 <Col md={12} >
                     <h2>6 Tips Melindungi Diri dari Pelecehan Seksual</h2>
-                        <Image src={image1} alt="Gambar Artikel" className="image-article" />
+                        <Image src={image1} alt="Gambar Artikel" className="image-article"fluid />
                         
                             <p>
                                 Ada begitu banyak jenis dan bentuk kekerasan terhadap perempuan dan anak. Salah satunya, kekerasan seksual atau pelecehan seksual. Kasus ini di Indonesia begitu marak sejak bertahun-tahun lalu.<br />

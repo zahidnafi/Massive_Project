@@ -44,7 +44,7 @@ const MoreArticle = () => {
                 <Card.Text>
                   Pelecehan seksual bukan hanya menimbulkan rasa tidak nyaman, tapi juga membuat korban rentan mengalami berbagai gangguan psikis, meliputi gangguan cemas, depresi, PTSD (Post Traumatic Stress Disorder), dan histeria...
                 </Card.Text>
-                <Button  variant="secondary" style={{backgroundColor: '#632B50'}}>Baca Selengkapnya</Button>
+                <Link to="/Artikel2"><Button  variant="secondary" style={{backgroundColor: '#632B50'}}>Baca Selengkapnya</Button></Link>
               </Card.Body>
             </Card>
           </Col>
@@ -58,7 +58,7 @@ const MoreArticle = () => {
                 <Card.Text>
                   Kasus kekerasan dan pelecehan seksual yang dialami seseorang seperti fenomena gunung es. Kejadiannya banyak yang belum terungkap lantaran korban enggan atau tidak tahu bagaimana cara melaporkan kasus kekerasan dan pelecehan seksual yang dialaminya...
                 </Card.Text>
-                <Button variant="secondary" style={{backgroundColor: '#632B50'}}>Baca Selengkapnya</Button>
+                <Link to="/Artikel3"><Button variant="secondary" style={{backgroundColor: '#632B50'}}>Baca Selengkapnya</Button></Link>
               </Card.Body>
             </Card>
           </Col>
@@ -72,7 +72,7 @@ const MoreArticle = () => {
                 <Card.Text>
                   Data Sistem Informasi Online (SIMFONI) Kemen PPPA yang diakses Rabu (31/3/2021) menunjukkan, kasus kekerasan yang menimpa para korban terjadi di berbagai tempat...
                 </Card.Text>
-                <Button variant="secondary" style={{backgroundColor: '#632B50'}}>Baca Selengkapnya</Button>
+                <Link to='/Artikel4'><Button variant="secondary" style={{backgroundColor: '#632B50'}}>Baca Selengkapnya</Button></Link>
               </Card.Body>
             </Card>
           </Col>

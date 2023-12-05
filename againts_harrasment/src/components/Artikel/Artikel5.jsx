@@ -4,7 +4,7 @@ import Image1 from "../../assets/gambar/Lapor_kekerasan.png"
 
 const Artikel5 = () => {
     return (
-        <Container className="mt-5">
+        <Container className="mt-5 mb-5">
             <Row>
                 <Col md={12}>
                     <h2>Cara Melaporkan Kekerasan Fisik/Seksual terhadap Perempuan dan Anak?</h2>

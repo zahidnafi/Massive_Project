@@ -11,6 +11,12 @@ import Articles6 from './pages/Artikel/Articles6';
 import ChangePass from './pages/Change_Pass';
 import Articles1 from './pages/Artikel/Articles1';
 import ToolsPages from './pages/ToolsPages';
+import Articles2 from './pages/Artikel/Articles2';
+import Articles3 from './pages/Artikel/Articles3';
+import Articles4 from './pages/Artikel/Articles4';
+import MainArticles from './pages/Artikel/ArtikelUtama';
+
+
 
 
 function App() {
@@ -27,7 +33,11 @@ function App() {
         <Route path='/Video' element={<Video/>}/>
         <Route path='/Tools' element={<ToolsPages/>}/>
         <Route path='/ChangePass' element={<ChangePass/>}/>
+        <Route path='/ArtikelUtama' element={<MainArticles/>}/>
         <Route path='/Artikel1' element={<Articles1/>}/>
+        <Route path='/Artikel2' element={<Articles2/>}/>
+        <Route path='/Artikel3' element={<Articles3/>}/>
+        <Route path='/Artikel4' element={<Articles4/>}/>
         <Route path='/Artikel5' element={<Articles5/>}/>
         <Route path='/Artikel6' element={<Articles6/>}/>
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import Image from "../../assets/gambar/Artikel 1.webp"
+import { Link } from 'react-router-dom';
 
 const MainArticle = () => {
   return (
@@ -21,7 +22,7 @@ const MainArticle = () => {
                     <Card.Text>
                       “Ada beberapa hal yang dapat dilakukan guna menyikap catcalling. Salah satunya adalah dengan memutuskan terlebih dahulu apakah kamu perlu menghindar atau melawan.”
                     </Card.Text>
-                    <Button variant="secondary" style={{backgroundColor: '#632B50'}}>Baca Selengkapnya</Button>
+                    <Link to='/ArtikelUtama'><Button variant="secondary" style={{backgroundColor: '#632B50'}}>Baca Selengkapnya</Button></Link>
                   </Card.Body>
                 </Col>
               </Row>
