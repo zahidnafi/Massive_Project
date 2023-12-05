@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Card, Form, Button } from 'react-bootstrap';
-
+import { Link } from 'react-router-dom';
 const ChangePasswordForm = () => {
     return (
-        <Container className="mt-5" style={{ height: '77vh' }}>
+        <Container className="mt-5" style={{ height: '79vh' }}>
             <Row className="justify-content-center">
                 <Col md={6}>
                     <Card>
@@ -22,7 +22,7 @@ const ChangePasswordForm = () => {
                                     <Form.Label>Konfirmasi Password Baru</Form.Label>
                                     <Form.Control type="password" placeholder="Konfirmasi Password Baru" />
                                 </Form.Group>
-                                <Button variant="secondary" href="login.html" style={{backgroundColor: '#FAD9EC',  color: 'black'}}>Simpan Perubahan</Button>
+                                <Link to='/'><Button variant="secondary" style={{ backgroundColor: '#632B50' }}>Simpan Perubahan</Button></Link>
                             </Form>
                         </Card.Body>
                     </Card>
