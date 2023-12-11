@@ -1,6 +1,6 @@
 import About from './pages/About';
 import Home from './pages/Home'
-import {Route, Routes } from "react-router-dom";
+import {Route, Routes, useNavigate } from "react-router-dom";
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Features from './pages/Features';
@@ -15,11 +15,18 @@ import Articles2 from './pages/Artikel/Articles2';
 import Articles3 from './pages/Artikel/Articles3';
 import Articles4 from './pages/Artikel/Articles4';
 import MainArticles from './pages/Artikel/ArtikelUtama';
+import { useEffect } from 'react';
 
 
 
 
 function App() {
+  const navigate = useNavigate()
+  useEffect(() => {
+    if(!localStorage.getItem('token')){
+      navigate('/')
+    }
+  }, [])
 
   return (
     <>
