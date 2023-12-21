@@ -16,6 +16,7 @@ import Articles3 from './pages/Artikel/Articles3';
 import Articles4 from './pages/Artikel/Articles4';
 import MainArticles from './pages/Artikel/ArtikelUtama';
 import { useEffect } from 'react';
+import SafeRoom from './pages/SafeRoom';
 
 
 
@@ -41,6 +42,7 @@ function App() {
         <Route path='/Tools' element={<ToolsPages/>}/>
         <Route path='/ChangePass' element={<ChangePass/>}/>
         <Route path='/ArtikelUtama' element={<MainArticles/>}/>
+        <Route path='/SafeRoom' element={<SafeRoom/>}/>
         <Route path='/Artikel1' element={<Articles1/>}/>
         <Route path='/Artikel2' element={<Articles2/>}/>
         <Route path='/Artikel3' element={<Articles3/>}/>

@@ -33,7 +33,6 @@ const CustomNavbar = () => {
             id="userDropdown"
             style={{ marginLeft: '20px', color: 'black' }}
           >
-            <NavDropdown.Item href="profile_user.html">Profil Pengguna</NavDropdown.Item>
             <NavDropdown.Item><Link to="/ChangePass" className="text-decoration-none" style={{color:'black'}}>Ganti Password</Link></NavDropdown.Item>
             <NavDropdown.Item><Link to="/" className="text-decoration-none" style={{color:'black'}}>Keluar</Link></NavDropdown.Item>
           </NavDropdown>
